@@ -37,6 +37,7 @@ An HTML boilerplate will contain the most common elements of a page as a sample 
 - [Semantics in HTML 5](Semantics in HTML 5)
 - [Intro to the Semantic Web](https://www.youtube.com/watch?v=OGg8A2zfWKg)
 - [ADA Compliance for Websites in Plain English](https://krisrivenburgh.medium.com/the-ada-checklist-website-compliance-guidelines-for-2019-in-plain-english-123c1d58fad9)
+- [Using White Space For Readability In HTML And CSS](https://www.smashingmagazine.com/2013/02/using-white-space-for-readability-in-html-and-css/)
 
 ## Exercises
 
