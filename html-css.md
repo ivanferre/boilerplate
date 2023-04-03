@@ -41,11 +41,22 @@ An HTML boilerplate will contain the most common elements of a page as a sample 
 
 ## Exercises
 
-1. freelancer.html tries to replicate <https://startbootstrap.com/theme/freelancer>
+#### Mockup of an existing web
+
+freelancer.html tries to replicate <https://startbootstrap.com/theme/freelancer>
 
 - <https://startbootstrap.com/theme/freelancer>
 - <https://startbootstrap.com/previews/freelancer>
 - <https://github.com/StartBootstrap>
+
+#### Exercise 1
+
+exercise1.html
+
+Issues:
+
+- Navigation does not work: anchor to other sections.
+- w3.org validator does not find an end-of-section.
 
 ## Dig Deeper
 
