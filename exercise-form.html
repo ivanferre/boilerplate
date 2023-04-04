@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil</title>
+  </head>
+  <body>
+    <header>
+      <h1>Profil</h1>
+      <h2>Hier können Sie Ihre Adress-Angaben einsehen und anpassen.</h2>
+    </header>
+    <main>
+      <form action="process.php" method="post" name="profilform">
+        <fieldset>
+          <legend>Persönliche Daten</legend>
+
+          <label for="titel">Titel</label>
+          <!-- TODO: Add validation (a list?) -->
+          <input
+            type="text"
+            name="titel"
+            id="titel"
+            placeholder="Dr. hc"
+            required
+          />
+
+          <label for="vorname">Vorname</label>
+          <input
+            type="text"
+            name="vorname"
+            id="vorname"
+            placeholder="Peter"
+            required
+          />
+
+          <label for="nachname">Nachname</label>
+          <input
+            type="text"
+            name="nachname"
+            id="nachname"
+            placeholder="Peter"
+            required
+          />
+
+          <fieldset>
+            <legend>Geschlecht</legend>
+            <label for="w-geschlecht">W</label>
+            <input
+              type="radio"
+              name="geschlecht"
+              id="w-geschlecht"
+              value="w-geschlecht"
+              checked
+            />
+            <label for="m-geschlecht">M</label>
+            <input
+              type="radio"
+              name="geschlecht"
+              id="m-geschlecht"
+              value="m-geschlecht"
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Sprache</legend>
+            <label for="de-sprache">DE</label>
+            <input
+              type="radio"
+              name="sprache"
+              id="de-sprache"
+              value="de"
+              checked
+            />
+            <label for="fr-sprache">FR</label>
+            <input type="radio" name="fr-sprache" id="fr-sprache" value="fr" />
+            <label for="it-sprache">IT</label>
+            <input type="radio" name="it-sprache" id="it-sprache" value="it" />
+          </fieldset>
+        </fieldset>
+        <fieldset>
+          <legend>Kontaktdaten</legend>
+          <label for="tel">Telefon</label>
+          <input type="tel" name="tel" id="tel" required />
+
+          <label for="handy">Mobile</label>
+          <input type="tel" name="handy" id="handy" placeholder="optional" />
+
+          <label for="haupt">Hauptnummer</label>
+          <input type="tel" name="haupt" id="haupt" placeholder="optional" />
+
+          <label for="fax">Fax</label>
+          <input type="tel" name="fax" id="fax" />
+
+          <label for="mail1">Mail 1</label>
+          <input type="email" name="mail1" id="mail1" required />
+
+          <label for="mail2">Mail 2</label>
+          <input type="email" name="mail2" id="mail2" placeholder="optional" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Adressdaten</legend>
+          <label for="firma">Firma</label>
+          <input type="text" name="firma" id="firma" required />
+
+          <label for="zfirma">Zusatzfirma</label>
+          <input type="text" name="zfirma" id="zfirma" placeholder="optional" />
+
+          <label for="home">Homepage</label>
+          <input type="url" name="home" id="home" placeholder="optional" />
+
+          <label for="adresse">Adresse / Haus Nr</label>
+          <input
+            type="text"
+            name="adresse"
+            id="adresse"
+            placeholder="Musterstrasse"
+            required
+          />
+          <input
+            type="number"
+            name="adressenum"
+            id="adressenum"
+            placeholder="33"
+            required
+          />
+
+          <label for="zadresse">Zusatz Adresse</label>
+          <input
+            type="text"
+            name="zadresse"
+            id="zadresse"
+            placeholder="optional"
+          />
+
+          <label for="postfach">Postfach</label>
+          <input
+            type="number"
+            name="postfach"
+            id="postfach"
+            placeholder="optional"
+          />
+
+          <!-- TO IMPROVE
+				Kanton / Land info has a number of issues:
+				1. They may vary between the two addresses.
+				2. If the country is different from CH, then there is no reason to ask for the Kanton.
+				3. Reusing the fields for both purposes prevents to use validation lists.
+			-->
+          <label for="plz">PLZ / Ort</label>
+          <input
+            type="text"
+            name="plz"
+            id="plz"
+            placeholder="8800"
+            pattern="\d{4,4}"
+            required
+          />
+          <input
+            type="text"
+            name="ort"
+            id="ort"
+            placeholder="Musterstadt"
+            required
+          />
+
+          <label for="kanton">Kanton / Land</label>
+          <input
+            type="text"
+            name="kanton"
+            id="kanton"
+            placeholder="ZH"
+            required
+          />
+          <input
+            type="text"
+            name="land"
+            id="land"
+            placeholder="Schweiz"
+            required
+          />
+        </fieldset>
+
+        <input
+          type="image"
+          src="speichern.jpg"
+          alt="Speichern"
+          height="50"
+          width="50"
+        />
+      </form>
+    </main>
+  </body>
+</html>
