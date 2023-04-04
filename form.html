@@ -9,7 +9,7 @@
   <body>
     <h1>Forms and Inputs</h1>
 
-    <form action="" method="post">
+    <form action="" method="post" name="myfirstform">
       <label for="text">Text Input</label>
       <input type="text" id="text" />
       <br />
@@ -64,7 +64,22 @@
       <br />
 
       <br />
-      <button type="su">submit</button>
+      <button type="submit">submit</button>
+    </form>
+
+    <form action="" method="post" name="semanticform">
+      <label for="num">Tell me a number:</label><br />
+      <input type="number" name="thenumber" id="num" /><br />
+      <label for="email">Tell me an email:</label><br />
+      <input type="email" name="theemail" id="email" /><br />
+      <label for="url">Tell me an URL:</label><br />
+      <input type="url" name="theurl" id="url" /><br />
+      <label for="tel">Tell me a telephone number:</label><br />
+      <input type="tel" name="thetel" id="tel" /><br />
+      <label for="token">Tell me a search token:</label><br />
+      <input type="search" name="thetoken" id="token" /><br />
+      <label for="send">Send:</label>
+      <input type="submit" value="Send" id="send" />
     </form>
   </body>
 </html>
