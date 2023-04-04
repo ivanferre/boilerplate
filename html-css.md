@@ -41,7 +41,7 @@ An HTML boilerplate will contain the most common elements of a page as a sample 
 
 ## Exercises
 
-#### Mockup of an existing web
+### Mockup of an existing web
 
 freelancer.html tries to replicate <https://startbootstrap.com/theme/freelancer>
 
@@ -49,7 +49,7 @@ freelancer.html tries to replicate <https://startbootstrap.com/theme/freelancer>
 - <https://startbootstrap.com/previews/freelancer>
 - <https://github.com/StartBootstrap>
 
-#### Exercise 1
+### Exercise 1
 
 exercise1.html
 
@@ -60,6 +60,9 @@ Issues:
 
 ## Dig Deeper
 
-- [Introduction to Web Accessibility](Introduction to Web Accessibility)
-- [HTML elements reference](HTML elements reference)
+- [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+- [HTML elements reference](https://developer.mozilla.org/en-US/docs/web/html/element)
 - [HTML5-Boilerplate Quick Start](https://github.com/h5bp/html5-boilerplate#quick-start)
+- [HTML5 Please](https://html5please.com/)
+- [CSS Values](https://cssvalues.com/)
+- [CSS Click Chart](https://css3clickchart.com/)
