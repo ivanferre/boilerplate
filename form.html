@@ -109,9 +109,64 @@
       /><br />
     </form>
 
-    <form action="" method="post">
-      <input type="range" id="volume" name="volume" min="0" max="11" />
+    <form action="" method="post" name="additional-inputs">
+      <h2>Additional Inputs Form</h2>
+      <p>
+        This is a range input implementing a Volume control. Note the following
+        is implemented:
+      </p>
+      <ul>
+        <li>Actual range is 0-15, but it's not displayed.</li>
+        <li>Default values for min and max are 0 and 100.</li>
+        <li>Ýou may also define a step. Default is 1.</li>
+        <li>
+          The value attribute gets the input value. It can never be empty.
+        </li>
+        <li>
+          You may also provide a list of <em>suggested</em> values. It combines
+          with a <code>datalist</code> element in the same document (here 0, 5,
+          10, 15). This <code>datalist</code> may be shared in multiple
+          controls. The values may also be labelled, but to display the labels
+          CSS must be used.
+        </li>
+        <li>
+          If you combine it with some Javascript, you may give numeric feedback
+          about the currently chosen value.
+        </li>
+      </ul>
       <label for="volume">Volume</label>
+      <input
+        type="range"
+        id="volume"
+        name="volume"
+        min="0"
+        max="15"
+        list="ticks"
+      />
+      <datalist id="ticks">
+        <option value="0"></option>
+        <option value="5"></option>
+        <option value="10"></option>
+        <option value="15"></option>
+      </datalist>
+
+      <br />
+      <label for="color">This is a color input:</label>
+      <input type="color" name="color" id="color" value="#f6b73c" />
+
+      <br />
+      <p>
+        <code>input</code> elements with <code>type="file"</code> let the user
+        choose one or more files from their device storage. Once chosen, the
+        files can be uploaded to a server using form submission, or manipulated
+        using JavaScript code and the File API. The
+        <code>accept</code> attribute allows filtering types of files.
+      </p>
+      <label for="file">What file(s) do you want to upload?</label>
+      <input type="file" name="file" id="file" accept="image/png, image/jpeg" />
+
+      <br />
+      <input type="submit" value="Send Further Info" />
     </form>
   </body>
 </html>
