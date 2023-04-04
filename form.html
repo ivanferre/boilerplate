@@ -166,6 +166,26 @@
       <input type="file" name="file" id="file" accept="image/png, image/jpeg" />
 
       <br />
+      <p>
+        <code>input</code> elements of type <code>hidden</code> let web
+        developers include data that cannot be seen or modified by users when a
+        form is submitted. For example, the ID of the content that is currently
+        being ordered or edited, or a unique security token. Hidden inputs are
+        completely invisible in the rendered page, and there is no way to make
+        it visible in the page's content.
+      </p>
+      <p>
+        <strong>Warning</strong>: While the value isn't displayed to the user in
+        the page's content, it is visible—and
+        <strong
+          >can be edited—using any browser's developer tools or "View Source"
+          functionality</strong
+        >. Do not rely on hidden inputs as a form of security.
+      </p>
+      <label for="hidden">There is something hidden over here.</label>
+      <input type="hidden" name="hidden" id="hidden" value="whatever" />
+
+      <br />
       <input type="submit" value="Send Further Info" />
     </form>
   </body>
