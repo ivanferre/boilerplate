@@ -13,7 +13,7 @@
     <nav>
       <ul>
         <li>
-          <a href="sample_shop_homepage.html"><img src="" alt="Logo" /></a>
+          <a href="sample_shop_homepage.html"><img src="logo.jpg" alt="Logo" /></a>
         </li>
         <li><a href="#shop">Shop Bottles</a></li>
         <li><a href="#reviews">Review Stories</a></li>
@@ -44,6 +44,7 @@
       <h2>Billing Address</h2>
       <em>*Required fields</em>
       <form action="process.php" method="post">
+
         <fieldset>
           <legend>Contact details</legend>
           <label for="firstname">First name</label>
@@ -53,9 +54,9 @@
           <label for="email">E-Mail address</label>
           <input type="email" name="email" id="email" required />
         </fieldset>
+
         <fieldset>
-          <legend>Address details
-          </legend>
+          <legend>Address details</legend>
           <label for="firstname2">First name</label>
           <input type="text" name="firstname2" id="firstname2"  />
           <label for="lastname2">Last name</label>
@@ -75,6 +76,7 @@
 		<input type="radio" name="delivery" id="pickup">Pick Up (CHF 0.00)
 		<input type="radio" name="delivery" id="post">Post (CHF 7.00)
 		</fieldset>
+		<fieldset>
 		<legend>Payment method</legend>
 		<input type="radio" name="payment" id="twint">Twint
 		<input type="radio" name="payment" id="invoice">Invoice
