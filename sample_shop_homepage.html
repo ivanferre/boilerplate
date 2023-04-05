@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- It's the text by the logo, seems logic to make this the pages's title -->
     <title>Bottles Boutique</title>
   </head>
   <body>
@@ -18,9 +19,23 @@
         <li><a href="#shop">Shop Bottles</a></li>
         <li><a href="#reviews">Review Stories</a></li>
         <li><a href="#about">About</a></li>
+        <li>
+          <!-- Both profile and shopping cart lead to different pages, so makes sense they are in nav menu -->
+          <a href="profile.html"
+            ><img src="profile-icon.png" alt="Profile"
+          /></a>
+        </li>
+        <li>
+          <a href="shopcart.html"><img src="cart.png" alt="Shopping Cart" /></a>
+        </li>
       </ul>
+      <!-- The languages button is not a nav link, but a switch feature -->
+      <button>
+        <!-- TODO language selector -->
+      </button>
     </nav>
     <header>
+      <!-- Different background and styles. Clearly navigation bar is a separate thing from the header -->
       <h1>Reusable bottles in beautiful designs.</h1>
       <p>
         For water and more. Waterproof.Leak-proof. Lets you drink ice-cold or
@@ -29,18 +44,76 @@
       <button>Shop now</button>
     </header>
     <main>
-      <h1></h1>
-      <h2></h2>
-      <p></p>
+      <h2>Our bottles - beautiful & practical</h2>
+      <ul>
+        <li>
+          <img
+            src="sustainable-resource.png"
+            alt="Sustainable Resource Icon"
+          />Sustainable Resourced
+        </li>
+        <li>
+          <img src="recyclable.png" alt="Recyclable Icon" />100% Recyclable
+        </li>
+        <li>
+          <img src="warm.png" alt="Temperature Icon" />24 hours cold or hot
+        </li>
+        <li><img src="drop.png" alt="Drop Icon" />BPA free</li>
+      </ul>
+
+      <!-- As per document structure, this is a h2 to me. Different styling as previous one, though -->
+      <h2>Shop bottles</h2>
+      <!-- List of product categories -->
+      <ul>
+        <li><img src="retro.png" alt="Image Retro Bottle" />Retro</li>
+        <li>
+          <img src="camouflage.png" alt="Image Camouflage Bottle" />Camouflage
+        </li>
+        <li><img src="hooks.png" alt="Image Hooks Bottle" />Hooks</li>
+        <li><img src="stylish.png" alt="Image Stylish Bottle" />Stylish</li>
+      </ul>
+
+      <h2>Stories</h2>
+      <a href="stories.html">All stories and reviews</a>
+      <a href="cobranding.html"
+        ><img src="cobranding.jpg" alt="Co-branding image" />Lorem ipsum... Read
+        more</a
+      >
+      <a href="reviews.html"
+        ><img src="topreviews.jpg" alt="Top Reviews image" />Lorem ipsum... Read
+        more</a
+      >
+
+      <!-- TODO -->
     </main>
     <footer>
       <!-- May include some hidden content for screen readers, etc. -->
       <nav>
+        <strong>Support</strong>
         <ul>
-          <li><a href="" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a href="support.html">Contact us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="return_refund.html">Return & Refund</a></li>
+        </ul>
+        <!--  One nav & two lists? Only one list but two columns? -->
+        <strong>Support</strong>
+        <ul>
+          <li><a href="support.html">Contact us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="return_refund.html">Return & Refund</a></li>
+        </ul>
+        <strong>Legal</strong>
+        <ul>
+          <li><a href="terms_conditions.html">Terms & Conditions</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
         </ul>
       </nav>
+      <strong>About us</strong>
+      Bottles Boutique is a small online shop based in Zürich, Switzerland with
+      the goal beautiful, re-usable bottles which are later recyclable for a
+      fair price.
       <!-- External links usually not in nav, social media icons may be an exception -->
+      &copy; 2023. Bottles Boutique, Sample Street 5,7897 Sample City
     </footer>
   </body>
 </html>
