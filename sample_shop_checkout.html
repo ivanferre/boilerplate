@@ -39,10 +39,21 @@
     </header>
     <main>
       <h2>Your Order</h2>
-      <table>
-        <!-- TODO: COMPLETE TABLE  -->
-      </table>
+      <table></table>
       <h2>Billing Address</h2>
+      <em>*Required fields</em>
+      <form action="process.php" method="post">
+        <fieldset>
+          <legend>Contact details</legend>
+          <label for="firstname">First name</label>
+          <input type="text" name="firstname" id="firstname" required />
+          <label for="lastname">First name</label>
+          <input type="text" name="lastname" id="lastname" required />
+          <label for="email">E-Mail address</label>
+          <input type="email" name="email" id="email" required />
+        </fieldset>
+        <!-- TODO: COMPLETE TABLE  -->
+      </form>
     </main>
     <footer>
       <!-- May include some hidden content for screen readers, etc. -->
