@@ -1,0 +1,33 @@
+a /* selector */ {
+  /* attribute: value */
+  color: red; /* comment */
+  height: 20 rem;
+  width: 100%;
+  font-size: 18px; /* em / vh /vw / ch / auto */
+  font-family: ;
+  position: ;
+  text-decoration: ;
+  display: ;
+} /* Declaration or CSS rule */
+
+/* Applies only to span's immediately following an a tag */
+a + span {
+  color: orchid;
+}
+
+/* all span children from an a  */
+a ~ span {
+  color: sandybrown;
+}
+
+a {
+  transition: color 0.5;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+[:target="_blank"]::after {
+  content: "(opens in new tab)";
+}
