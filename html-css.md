@@ -172,6 +172,10 @@ In order to deal with different browser styles people came up with stylesheets w
 - [Icon font generator: Icon Moon](https://icomoon.io/app/#/select)
 -[Icon font generator: Glypther](https://glyphter.com/)
 
+### Fun Practice
+
+Play the [CSS Game](https://flukeout.github.io/)!
+
 ### Further Refs. (found in Pocket)
 
 - [https://blog.geekyants.com/5-most-annoying-things-with-css-8c356dc24f5e](https://blog.geekyants.com/5-most-annoying-things-with-css-8c356dc24f5e)
