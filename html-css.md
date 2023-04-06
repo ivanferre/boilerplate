@@ -107,16 +107,6 @@ a:hover {
 }
 ```
 
-**ToDo**:
-
-Research how to fix (syntax) this code:
-
-```css
-[target="_blank"]::after {
-  content: "(opens in new tab)";
-}
-```
-
 ### References
 
 - [A brief history of web design for designers](https://blog.froont.com/brief-history-of-web-design-for-designers/)
@@ -156,6 +146,31 @@ In order to deal with different browser styles people came up with stylesheets w
 #### Images
 
 - [When to Use the JPG, GIF, PNG, and SVG Formats](https://www.thoughtco.com/when-to-use-certain-image-formats-3467831)
+
+## Resources
+
+- <https://www.cssbasics.com/>
+- [CSS Browser Support Reference](https://www.w3schools.com/cssref/css3_browsersupport.asp)
+- <https://tiny.cc/w53zcz>
+- <https://alistapart.com/article/journey/>
+- <https://typespiration.com/>
+- <https://contrastchecker.com/>
+-[Modern CSS upgrades to improve accessibility](https://moderncss.dev/modern-css-upgrades-to-improve-accessibility/)
+- <https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text>
+
+### Images and Patterns
+
+- [UNSPLASH - Free images](https://unsplash.com/)
+- [Subtle background patterns](https://www.toptal.com/designers/subtlepatterns/)
+- [More background patterns](https://inspirationhut.net/design-resources/20-beautiful-seamless-patterns-for-your-website-background/)
+- [Gradient Pattern Gallery by Lea Verou](https://leaverou.github.io/css3patterns/)
+- [Ultimate CSS3 Gradient Generator](https://www.colorzilla.com/gradient-editor/)
+
+### Web fonts
+
+- [Free icon font: Font awesome](https://fontawesome.com/)
+- [Icon font generator: Icon Moon](https://icomoon.io/app/#/select)
+-[Icon font generator: Glypther](https://glyphter.com/)
 
 ### Further Refs. (found in Pocket)
 
