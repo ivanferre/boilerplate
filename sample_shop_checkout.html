@@ -56,6 +56,43 @@
           <label for="email">E-Mail address</label>
           <input type="email" name="email" id="email" required />
         </fieldset>
+
+        <fieldset>
+          <legend>Address details</legend>
+          <label for="firstname2">First name</label>
+          <input type="text" name="firstname2" id="firstname2" />
+          <label for="lastname2">Last name</label>
+          <input type="text" name="lastname2" id="lastname2" />
+          <label for="company2">Company</label>
+          <input type="text" name="company2" id="company2" />
+          <label for="address2">Address</label>
+          <input type="text" name="address2" id="address2" />
+          <label for="zipcode2">ZIP Code</label>
+          <input type="text" name="zipcode2" id="zipcode2" />
+          <label for="city2">City</label>
+          <input type="text" name="city2" id="city2" />
+
+          <fieldset>
+            <!-- When styling with CSS we will set a 'required' class -->
+            <legend>Delivery method</legend>
+            <input type="radio" name="delivery" id="pickup" />Pick Up (CHF 0.00)
+            <input type="radio" name="delivery" id="post" />Post (CHF 7.00)
+          </fieldset>
+
+          <fieldset>
+            <legend>Payment method</legend>
+            <input type="radio" name="payment" id="twint" />Twint
+            <input type="radio" name="payment" id="invoice" />Invoice
+            <label for="comment">Comment</label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </fieldset>
+          <input type="submit" value="Submit" />
+        </fieldset>
       </form>
 
       <!-- As per document structure, this is a h2 to me. Different styling as previous one, though -->
