@@ -1,6 +1,6 @@
 a /* selector */ {
-  /* attribute: value */
-  color: red; /* comment */
+  /* attribute: value - this pair is called declaration */
+  color: red; /* declaration */
   height: 20 rem;
   width: 100%;
   font-size: 18px; /* em / vh /vw / ch / auto */
@@ -8,7 +8,7 @@ a /* selector */ {
   position: ;
   text-decoration: ;
   display: ;
-} /* Declaration or CSS rule */
+} /* Block or CSS rule */
 
 /* Applies only to span's immediately following an a tag */
 a + span {
