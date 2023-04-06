@@ -4,62 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Group Exercise</title>
+    <title>Main Page to Experiment with CSS</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Welcome to the Prejudice Form!</h1>
+    <h1>CSS Experiments</h1>
 
-    <form action="" method="post" name="prejudice">
-      <label for="email">Say who to blame:</label><br />
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="name@domain.com"
-        required
-      />
-      <br />
-
-      <label for="phone">Declare the phone number where to harass you:</label
-      ><br />
-      <!-- /(\(?([\d \-\)\–\+\/\(]+){6,}\)?([ .\-–\/]?)([\d]+))/ -->
-      <input
-        type="tel"
-        name="phone"
-        id="phone"
-        placeholder="669995555"
-        pattern="(0|+\d{2,2}) \d{9,9}"
-        required
-      />
-      <br />
-
-      <label for="number">How many abusing calls per day do you request?</label
-      ><br />
-      <input
-        type="number"
-        name="number"
-        id="number"
-        value="20"
-        min="5"
-        max="1440"
-        required
-      />
-      <br />
-
-      <label for="color"
-        >Confess your eyes color (be <strong>very</strong> precise):</label
-      ><br />
-      <input type="color" name="color" id="color" required />
-      <br />
-
-      <label for="date">When should we start?</label><br />
-      <input type="date" name="date" id="date" required />
-      <br />
-      <p>
-        Please review your data before submitting. We hate wasting our precious
-        time.
-      </p>
-      <input type="submit" value="Submit" />
-    </form>
+    <section id="one"></section>
+    <section id="two"></section>
   </body>
 </html>

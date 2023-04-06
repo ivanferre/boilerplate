@@ -58,7 +58,7 @@ Issues:
 - Navigation does not work: anchor to other sections.
 - w3.org validator does not find an end-of-section.
 
-# ToDo
+## ToDo
 
 - Include most common attributes into form.html
 
@@ -73,12 +73,89 @@ Issues:
 
 ## CSS
 
+### Definitions
+
+```css
+a /* selector */ {
+  /* attribute: value - this pair is called declaration */
+  color: red; /* declaration */
+  height: 20 rem;
+  width: 100%;
+  font-size: 18px; /* em / vh /vw / ch / auto */
+} /* Block or CSS rule */
+```
+
+### Selector Examples
+
+```css
+/* Applies only to span's immediately following an a tag */
+a + span {
+  color: orchid;
+}
+
+/* all span children from an a  */
+a ~ span {
+  color: sandybrown;
+}
+
+a {
+  transition: color 0.5;
+}
+
+a:hover {
+  color: greenyellow;
+}
+```
+
+**ToDo**
+
+Research how to fix (syntax) this code:
+
+```css
+[a:target="_blank"]::after {
+  content: "(opens in new tab)";
+}
+```
+
 ### References
 
 - [A brief history of web design for designers](https://blog.froont.com/brief-history-of-web-design-for-designers/)
-
-- [Confused About REM and EM?](https://j.eremy.net/confused-about-rem-and-em/)
 - [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.php)
+- [Confused About REM and EM?](https://j.eremy.net/confused-about-rem-and-em/)
+- This article explain the cascading hierarchy: [The CSS Cascade](https://wattenberger.com/blog/css-cascade)
+- This is the reference about cascading: [Introducing the CSS Cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
+- [Pseudo-classes and pseudo-elements](Pseudo-classes and pseudo-elements)
+
+In order to deal with different browser styles people came up with stylesheets which would **reset** these styles or **normalize** them.
+
+#### Normalization
+
+- [The New CSS Reset](https://elad2412.github.io/the-new-css-reset/)
+- [Normalize.css - The best CSS reset library in 2023](https://byby.dev/normalize-css)
+
+#### CSS Colors
+
+- [CSS Color Names](https://147colors.com/)
+- [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
+- [Color Palettes Generator](https://coolors.co/)
+
+**Best practice**:
+
+1. hex codes
+2. rgba
+3. hsla is best for one-color schemes.
+
+#### Fonts
+
+- [CSS Fonts](https://www.w3schools.com/css/css_font.asp)
+- [Fundamental text and font styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals#web_safe_fonts)
+- [Google Fonts](https://fonts.google.com/)
+- [Get Started with the Google Fonts API](https://developers.google.com/fonts/docs/getting_started)
+- [CSS Tricks Icon Fonts](https://css-tricks.com/examples/IconFont/)
+
+#### Images
+
+- [When to Use the JPG, GIF, PNG, and SVG Formats](https://www.thoughtco.com/when-to-use-certain-image-formats-3467831)
 
 ### Further Refs. (found in Pocket)
 
