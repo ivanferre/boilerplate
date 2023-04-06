@@ -1,7 +1,37 @@
-a /* selector */ {
-  /* attribute: value - this pair is called declaration */
-  color: red; /* declaration */
-  height: 20 rem;
-  width: 100%;
-  font-size: 18px; /* em / vh /vw / ch / auto */
-} /* Block or CSS rule */
+html {
+  font-size: 10px;
+}
+
+section {
+  font-size: 20px;
+  border-width: thin;
+  border-style: solid;
+}
+
+[target="_blank"]::after {
+  color: blueviolet;
+  content: "(opens in new tab)";
+}
+
+[target="blank"]::after {
+  color: blueviolet;
+  content: "(opens in second tab)";
+}
+
+section#one p {
+  font-size: 1em;
+}
+
+section#two p {
+  font-size: 2em;
+}
+
+section#three p {
+  font-size: 1rem;
+  color: navy;
+}
+
+section#four p {
+  font-size: 2rem;
+  color: navy;
+}

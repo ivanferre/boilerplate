@@ -10,7 +10,96 @@
   <body>
     <h1>CSS Experiments</h1>
 
-    <section id="one"></section>
-    <section id="two"></section>
+    <section id="linkdecoration">
+      <h2>Link Decoration</h2>
+
+      <p>
+        This is a link that points to the same tab:
+        <a href="https://www.w3schools.com/cssref/css_selectors.php"
+          >CSS Selector Reference</a
+        >
+      </p>
+      <p>
+        And this one points to a different tab:
+        <a
+          href="https://www.w3schools.com/cssref/css_selectors.php"
+          target="_blank"
+          >CSS Selector Reference</a
+        >
+      </p>
+      <p>
+        And this one points to the same tab opened by the second link:
+        <a
+          href="https://www.w3schools.com/cssref/css_selectors.php"
+          target="blank"
+          >CSS Selector Reference</a
+        >
+      </p>
+    </section>
+
+    <h2>Font Size</h2>
+    <p>
+      These two paragraphs <strong>are not</strong> in any section, and they use
+      the font-size defined for root. As stated in the `style.css` stylesheet:
+      `html {font-size: 10px}`.
+    </p>
+    <p>
+      This is a paragraph with a
+      <strong>very important thing to say</strong>, and something else that
+      <em>should be emphasized</em> for better understanding.
+    </p>
+
+    <section id="zero">
+      <p>
+        This paragraph <strong>is</strong> within a section. The
+        <code>section</code> style I've defined in the `style.css` stylesheet
+        are as follows:
+      </p>
+      <code lang="css">
+        section { font-size: 20px; border-width: thin; border-style: solid; }
+      </code>
+      <p>Paragraphs into sections are given font sizes as stated below.</p>
+    </section>
+    <p>
+      This is a paragraph with a
+      <strong>very important thing to say</strong>, and something else that
+      <em>should be emphasized</em> for better understanding.
+    </p>
+
+    <section id="one">
+      <p>This section uses `font-size: 1em`</p>
+      <p>
+        This is a paragraph with a
+        <strong>very important thing to say</strong>, and something else that
+        <em>should be emphasized</em> for better understanding.
+      </p>
+    </section>
+
+    <section id="three">
+      <p>This section uses `font-size: 1rem`</p>
+      <p>
+        This is a paragraph with a
+        <strong>very important thing to say</strong>, and something else that
+        <em>should be emphasized</em> for better understanding.
+      </p>
+    </section>
+
+    <section id="two">
+      <p>This section uses `font-size: 2em`</p>
+      <p>
+        This is a paragraph with a
+        <strong>very important thing to say</strong>, and something else that
+        <em>should be emphasized</em> for better understanding.
+      </p>
+    </section>
+
+    <section id="four">
+      <p>This section uses `font-size: 2rem`</p>
+      <p>
+        This is a paragraph with a
+        <strong>very important thing to say</strong>, and something else that
+        <em>should be emphasized</em> for better understanding.
+      </p>
+    </section>
   </body>
 </html>

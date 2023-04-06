@@ -107,12 +107,12 @@ a:hover {
 }
 ```
 
-**ToDo**
+**ToDo**:
 
 Research how to fix (syntax) this code:
 
 ```css
-[a:target="_blank"]::after {
+[target="_blank"]::after {
   content: "(opens in new tab)";
 }
 ```
