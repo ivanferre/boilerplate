@@ -39,7 +39,7 @@ An HTML boilerplate will contain the most common elements of a page as a sample 
 - [ADA Compliance for Websites in Plain English](https://krisrivenburgh.medium.com/the-ada-checklist-website-compliance-guidelines-for-2019-in-plain-english-123c1d58fad9)
 - [Using White Space For Readability In HTML And CSS](https://www.smashingmagazine.com/2013/02/using-white-space-for-readability-in-html-and-css/)
 
-## Exercises
+## HTML Exercises
 
 ### Mockup of an existing web
 
@@ -49,7 +49,7 @@ freelancer.html tries to replicate <https://startbootstrap.com/theme/freelancer>
 - <https://startbootstrap.com/previews/freelancer>
 - <https://github.com/StartBootstrap>
 
-### Exercise 1 (HTML)
+### HTML Exercise 1
 
 exercise1.html
 
@@ -62,7 +62,7 @@ Issues:
 
 - Include most common attributes into form.html
 
-## Dig Deeper
+## HTML Dig Deeper
 
 - [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 - [HTML elements reference](https://developer.mozilla.org/en-US/docs/web/html/element)
@@ -70,3 +70,18 @@ Issues:
 - [HTML5 Please](https://html5please.com/)
 - [CSS Values](https://cssvalues.com/)
 - [CSS Click Chart](https://css3clickchart.com/)
+
+## CSS
+
+### References
+
+- [A brief history of web design for designers](https://blog.froont.com/brief-history-of-web-design-for-designers/)
+
+- [Confused About REM and EM?](https://j.eremy.net/confused-about-rem-and-em/)
+- [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.php)
+
+### Further Refs. (found in Pocket)
+
+- [https://blog.geekyants.com/5-most-annoying-things-with-css-8c356dc24f5e](https://blog.geekyants.com/5-most-annoying-things-with-css-8c356dc24f5e)
+
+- [10 Responsive Design Problems and Fixes](https://uxmag.com/articles/10-responsive-design-problems-and-fixes)
