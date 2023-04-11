@@ -171,6 +171,7 @@ In order to deal with different browser styles people came up with stylesheets w
 - [Free icon font: Font awesome](https://fontawesome.com/)
 - [Icon font generator: Icon Moon](https://icomoon.io/app/#/select)
 -[Icon font generator: Glypther](https://glyphter.com/)
+(
 
 ### Fun Practice
 
@@ -181,3 +182,27 @@ Play the [CSS Game](https://flukeout.github.io/)!
 - [https://blog.geekyants.com/5-most-annoying-things-with-css-8c356dc24f5e](https://blog.geekyants.com/5-most-annoying-things-with-css-8c356dc24f5e)
 
 - [10 Responsive Design Problems and Fixes](https://uxmag.com/articles/10-responsive-design-problems-and-fixes)
+
+## CSS Layout Techniques
+
+- Best Practice with box-sizing: border-box
+
+- Don't use floats
+- Grid model
+- Flex model
+
+### CSS Layout Reference Sheets
+
+- [CSS Intro](https://bootcamp.powercoders.org/handouts/05-CSS-intro-reference-sheet.pdf)
+- [CSS Positioning](https://bootcamp.powercoders.org/handouts/05-CSS-positioning-reference-sheet.pdf)
+
+### CSS Layout Resources
+
+- [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) on _CSS Tricks_.
+- [Grid by Example](http://gridbyexample.com/) by **Rachel Andrew**.
+- Look for 'The CSS Workshop by Jen Simmons'
+- [Spring Into CSS Grid by Joni Trythall](https://jonitrythall.com/spring-into-css-grid)
+- [Grid Cheat Sheet](https://www.w3.org/TR/css-grid-1)
+- [CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox/)
+
+More online resources.
