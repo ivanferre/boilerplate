@@ -23,6 +23,7 @@ header p {
 footer {
   background-color: blue;
   height: 10vw;
+  bottom: 2px;
   position: sticky;
 }
 
