@@ -1,0 +1,11 @@
+/* Sticky Footer Grid CSS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
