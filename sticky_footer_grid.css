@@ -13,7 +13,7 @@ html {
 
 header {
   background-color: darkred;
-  height: 3rem;
+  height: 4vw;
   font-family: sans-serif;
 }
 header p {
@@ -22,7 +22,8 @@ header p {
 
 footer {
   background-color: blue;
-  height: 5rem;
+  height: 10vw;
+  position: sticky;
 }
 
 footer p {
@@ -32,4 +33,5 @@ footer p {
 
 main {
   font-family: serif;
+  height: 30rem;
 }
