@@ -206,3 +206,5 @@ Play the [CSS Game](https://flukeout.github.io/)!
 - [CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox/)
 
 More online resources.
+
+- <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>

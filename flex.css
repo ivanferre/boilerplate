@@ -16,7 +16,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  margin: 5rem;
+  margin: 5rem 2rem;
 }
 
 section {
@@ -27,9 +27,11 @@ section {
 }
 
 article {
-  display: flex;
   width: 40%;
   align-items: center;
+  display: flex;
+  min-width: 15em;
+  flex: 1 1 30%;
   flex-direction: column;
   margin: 1rem;
 }
@@ -38,15 +40,38 @@ h1,
 h2 {
   text-transform: uppercase;
   text-align: center;
+  color: rgb(159, 159, 159);
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+strong {
+  color: black;
 }
 
 p {
   text-align: center;
   margin-left: 3rem;
   margin-right: 3rem;
+  font-family: serif;
+  font-size: 0.8rem;
 }
 
 img {
   width: 100%;
   max-width: 300px;
+}
+
+button {
+  width: max-content;
+  margin-left: 50%;
+  margin-right: auto;
+  margin-bottom: 2rem;
 }
