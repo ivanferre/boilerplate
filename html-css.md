@@ -208,3 +208,4 @@ Play the [CSS Game](https://flukeout.github.io/)!
 More online resources.
 
 - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+- <https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers>
